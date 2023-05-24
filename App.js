@@ -10,7 +10,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        {/* <Stack.Screen options={{ headerShown: false }} name="Home" component={Welcome} /> */}
+        <Stack.Screen options={{ headerShown: false }} name="Home" component={Welcome} />
         <Stack.Screen options={{ headerShown: false }} name="LastPeriod" component={LastPeriod} />
       </Stack.Navigator>
     </NavigationContainer>

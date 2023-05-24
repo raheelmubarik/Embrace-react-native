@@ -18,13 +18,7 @@ const Welcome = () => {
                 style={styles.logo}
                 source={require("../../assets/logo.jpg")}
             />
-            <Text style=
-                {{
-                    color: "#000000",
-                    fontSize: 26,
-                    marginTop: 15,
-                    marginBottom: 15
-                }} >Welcome to Embrace </Text>
+            <Text style={{ color: "#000000", fontSize: 26, marginTop: 15, marginBottom: 15 }} >Welcome to Embrace </Text>
             <ScrollView style={{ width: "80%" }}>
                 <View>
                     <KeyboardAvoidingView behavior={Platform.OS === "ios" ? "padding" : "height"} style={{ width: "100%", justifyContent: "center", alignItems: "center", }}>
@@ -38,15 +32,8 @@ const Welcome = () => {
                     </KeyboardAvoidingView>
                 </View>
                 <TouchableOpacity style={{
-                    backgroundColor: "#E81F76",
-                    borderRadius: 23,
-                    height: 70,
-                    width: "100%",
-                    borderColor: "#E81F76",
-                    alignSelf: "center",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    marginTop: 60
+                    backgroundColor: "#E81F76", borderRadius: 23, height: 70, width: "100%", borderColor: "#E81F76",
+                    alignSelf: "center", justifyContent: "center", alignItems: "center", marginTop: 60
                 }} onPress={() => navigation.navigate("LastPeriod")} >
                     <Text style={{ fontSize: 28, color: "#ffff" }}>Sign in </Text>
                 </TouchableOpacity>
